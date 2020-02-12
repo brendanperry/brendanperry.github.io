@@ -1,10 +1,149 @@
 p {
   color: black;
   text-align: left;
+  padding: 10px;
+  font-family: "Roboto";
+  font-size: 13pt;
 } 
 
 h1 {
-  color: black;
-  text-align: center;
-  font-weight: bold;
+  color:white; 
+  padding-bottom: 15px; 
+  text-align: center; 
+  font-family: 'Roboto-Bold';
+  font-size: 50px;
 } 
+
+.name {
+  color: #292929;
+  font-size: 15px;
+  padding-top: 16px;
+  display: inline-block;
+  padding-left: 20px;
+  font-family: "Roboto-Thin";
+  text-transform: uppercase;
+}
+
+.menuItems {
+  color: #292929;
+  font-size: 15px;
+  padding-top: 17px;
+  padding-right: 50px;
+  font-family: "Roboto-Thin";
+  float: right;
+  text-transform: uppercase;
+}
+
+.menuItems a {
+  color: black;
+}
+
+.menuItems :hover {
+  color: #2A5DB0;
+}
+
+.name a {
+  color: #292929; 
+  text-decoration: none;
+}
+
+.name :hover {
+  color: #2A5DB0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: gray;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  padding: 10px;
+  font-family: "Roboto-Bold";
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.menuBar {
+  background-color: white;
+  height: 50px;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 0px 3px 3px;
+}
+
+.footer {
+  text-align: center; 
+  font-size: 10pt; 
+  font-family: 'Roboto-Thin';
+  text-transform: uppercase;
+}
+
+.footer :hover {
+  color: #2A5DB0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.top {
+  padding-top: 140px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  background-color: #292929;
+}
+
+.main {
+  padding-top: 75px;
+  font-size: 16pt;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  margin-top: -25px;
+  line-height: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.bottom {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16pt;
+  margin-top: -25px;
+  line-height: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #292929;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0e0e0;
+}
