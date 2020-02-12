@@ -51,21 +51,12 @@ h1 {
   color: #2A5DB0;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-}
-
-li a {
-  display: block;
-  text-decoration: none;
-  color: black;
-  background-color: gray;
-  text-align: center;
+.name {
+  color: #292929;;
+  font-size: 15px;
+  padding-top: 16px;
+  padding-left: 20px;
+  font-family: "Roboto-Thin";
 }
 
 a {
@@ -75,11 +66,6 @@ a {
 h2 {
   padding: 10px;
   font-family: "Roboto-Bold";
-}
-
-li a:hover {
-  background-color: black;
-  color: white;
 }
 
 .menuBar {
