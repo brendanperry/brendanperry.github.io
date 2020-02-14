@@ -111,7 +111,7 @@ h2 {
   margin-left: 25px;
   margin-right: 25px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .bottom {
@@ -132,4 +132,55 @@ h2 {
 
 body {
   background-color: #e0e0e0;
+}
+
+ul {
+  float: right;
+  margin-right: 25px;
+  margin-top:15px;
+  list-style-type: none;
+  color: #292929;
+  background-color: white;
+}
+
+li {
+  padding: 20px;
+  font-family: "Roboto-Thin";
+  display: inline;
+}
+
+.menuIcon {
+  float: right;
+  margin: 14px;
+  display: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+  .main, .bottom {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+
+  ul {
+    margin: 0;
+    margin-top: -10px;
+    width: 100%;
+    box-shadow: 0px 3px 3px 0px;
+    visibility: hidden;
+  }
+
+  li {
+    padding: 20px;
+    display: block;
+  }
+
+  .menuIcon {
+    display: block;
+  }
 }
