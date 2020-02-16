@@ -15,14 +15,13 @@
 
 <div class="menuBar">
     <span class="name"><a href="#"">Brendan Perry</a></span>
-    <!--<span class="menuItems"><a href="#">Contact</a></span>
-    <span class="menuItems"><a href="#">About</a></span>
-    <span class="menuItems"><a href="#">Projects</a></span>-->
 
-    <button class="menuIcon"><i class="material-icons">menu</i></button>    
+    <!--The toggle is kept invisible and is controlled by the menu icon-->
+    <label for="toggle" class="menuIcon"><i class="material-icons">menu</i></label>    
+    <input type="checkbox" id="toggle">
 
-    <ul>
-        <li>Projects</li>
+    <ul class="menu">
+        <li >Projects</li>
         <li>About</li>
         <li>Contact</li>
     </ul>

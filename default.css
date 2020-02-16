@@ -134,7 +134,7 @@ body {
   background-color: #e0e0e0;
 }
 
-ul {
+.menu {
   float: right;
   margin-right: 25px;
   margin-top:15px;
@@ -153,6 +153,20 @@ li {
   float: right;
   margin: 14px;
   display: none;
+  appearance: none;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked ~ ul  {
+  visibility: visible;
 }
 
 button {
