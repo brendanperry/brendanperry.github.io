@@ -14,21 +14,18 @@
 </head>
 <body style="background-color: #e0e0e0">
 
-<div class="menuBar">
-    <a href="#" class="name">Brendan Perry</a>
+<div id="menuBar">
+    <div id="menuBarLeft">
+        <a href="#" id="name">Brendan Perry</a>
+    </div>
 
-    <!--The toggle will only work on classes that are within the same div and after it.-->
-    <input type="checkbox" id="toggle">
-
-    <!--The toggle is kept invisible and is controlled by the menu icon-->
-    <label for="toggle" class="menuIcon"><i class="las la-bars"></i></label>
-    <label for="toggle" class="closeIcon"><i class="las la-times"></i></label>
-    
-    <ul class="menu">
-        <li class="menuItems">Projects</li>
-        <li class="menuItems">About</li>
-        <li class="menuItems">Contact</li>
-    </ul>
+    <div id="menuBarRight">
+        <ul id="menuItemsContainer">
+            <li class="menuItems">Projects</li>
+            <li class="menuItems">About</li>
+            <li class="menuItems">Contact</li>
+        </ul>
+    </div>   
 </div>
 
 <div class="top">

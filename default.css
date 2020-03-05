@@ -36,6 +36,7 @@ h3 {
 
 body {
   background-color: #e0e0e0;
+  width: 100%;
 }
 
 .top {
@@ -76,27 +77,63 @@ body {
   min-height: 100px;
 }
 
-.name {
+#menuBar {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  height: 7%;
+  position: fixed;
+}
+
+#menuBarLeft {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#name {
   color: #292929;
-  font-size: 15px;
-  display: inline-block;
-  padding: 16px;
+  font-size: 1rem;
   font-family: "Roboto-Thin";
   text-transform: uppercase;
-  background-color: white;
+  padding-left: 30px;
 }
 
-.name a {
+#name a {
   color: #292929;
 }
 
-.menu {
-  float: right;
+#menuBarRight {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#menuItemsContainer {
   list-style-type: none;
   color: #292929;
   background-color: white;
-  position: relative;
-  z-index: -1;
+  height: 100%;
+}
+
+.menuItems {
+  color: #292929;
+  font-size: 1rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "Roboto-Thin";
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menuItems:hover {
+  background-color: #292929;
+  color: white;
 }
 
 @keyframes fadeIn {
@@ -106,29 +143,6 @@ body {
   100% {
     transform: translateY(0);
   }
-}
-
-.menuItems {
-  color: #292929;
-  font-size: 15px;
-  font-family: "Roboto-Thin";
-  float: left;
-  padding: 16px;
-  text-transform: uppercase;
-}
-
-.menuItems:hover {
-  background-color: #292929;
-  color: white;
-}
-
-.menuBar {
-  background-color: white;
-  height: 50px;
-  padding: 0px;
-  position: fixed;
-  width: 100%;
-  box-shadow: 0px 0px 3px 3px;
 }
 
 .menuIcon {
@@ -226,11 +240,15 @@ body {
     margin-right: 0;
   }
 
-  .menu {
+  #menuItemsContainer {
     width: 100%;
     margin-top: -6px;
     box-shadow: 0px 2px 1px 0px;
     visibility: hidden;
+  }
+
+  #rightMenuBar {
+    display: inline;
   }
 
   .homeIcons {
@@ -238,6 +256,7 @@ body {
     padding: 0px;
     margin: 0;
   }
+
 
   .menuItems {
     float: none;
