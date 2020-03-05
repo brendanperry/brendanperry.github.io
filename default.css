@@ -83,6 +83,7 @@ body {
   padding: 16px;
   font-family: "Roboto-Thin";
   text-transform: uppercase;
+  background-color: white;
 }
 
 .name a {
@@ -94,6 +95,27 @@ body {
   list-style-type: none;
   color: #292929;
   background-color: white;
+  position: relative;
+  z-index: -1;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-150px);
+    visibility: hidden;
+  }
 }
 
 .menuItems {
@@ -103,7 +125,6 @@ body {
   float: left;
   padding: 16px;
   text-transform: uppercase;
-  transition: all .2s ease-in-out;
 }
 
 .menuItems:hover {
@@ -130,7 +151,19 @@ body {
   -ms-user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
-  -khtml-user-select: none;
+}
+
+.closeIcon {
+  float: right;
+  font-size: 1.5em;
+  padding: 13px;
+  display: none;
+  visibility: hidden;
+  appearance: none;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .homeIcons {
@@ -180,6 +213,15 @@ body {
 
 #toggle:checked ~ .menu {
   visibility: visible;
+  animation: fadeIn .25s 0s 1 normal ease-in forwards;
+}
+
+#toggle:checked ~ .menuIcon {
+  display: none;
+}
+
+#toggle:checked ~ .closeIcon {
+  visibility: visible;
 }
 
 @media screen and (max-width: 800px) {
@@ -198,7 +240,7 @@ body {
     width: 100%;
     margin-top: -6px;
     box-shadow: 0px 2px 1px 0px;
-    visibility: hidden;
+    animation: fadeOut .25s 0s 1 normal ease-in forwards;
   }
 
   .homeIcons {
@@ -212,6 +254,10 @@ body {
   }
 
   .menuIcon {
-    display: block;
+    display: inline;
+  }
+
+  .closeIcon {
+    display: inline;
   }
 }
