@@ -72,10 +72,7 @@ html {
 }
 
 #menuBarRight {
-  width: 50%;
-  display: flex;
-  justify-content: right;
-  align-items: center;
+  width: 100%;
 }
 
 #menuItemsContainer {
@@ -94,7 +91,7 @@ html {
   padding-right: 1.75vw;
   padding-left: 1.75vw;
   font-family: "Roboto-Thin";
-  float: left;
+  float: right;
   height: 100%;
   display: flex;
   align-items: center;
