@@ -14,41 +14,40 @@
 </head>
 <body style="background-color: #e0e0e0">
 
-<div class="menuBar">
-    <a href="#" class="name">Brendan Perry</a>
+<div id="menuBar">
+    <div id="menuBarLeft">
+        <a href="#" id="name">Brendan Perry</a>
+    </div>
 
-    <!--The toggle will only work on classes that are within the same div and after it.-->
-    <input type="checkbox" id="toggle">
-
-    <!--The toggle is kept invisible and is controlled by the menu icon-->
-    <label for="toggle" class="menuIcon"><i class="las la-bars"></i></label>
-    <label for="toggle" class="closeIcon"><i class="las la-times"></i></label>
-    
-    <ul class="menu">
-        <li class="menuItems">Projects</li>
-        <li class="menuItems">About</li>
-        <li class="menuItems">Contact</li>
-    </ul>
+    <div id="menuBarRight">
+        <ul id="menuItemsContainer">
+            <li class="menuItems">About</li>
+            <li class="menuItems">Projects</li>
+            <li class="menuItems">Contact</li>
+        </ul>
+    </div>   
 </div>
 
-<div class="top">
+<div id="top">
     <h1>Welcome</h1>
 </div>
 
-<div class="main" style="text-align: center;">
-    <div class="homeIcons">
+<div id="main" style="text-align: center;">
+    <div id="mainWrapper">
+    <div style="color: green" class="homeIcons">
         <i class="lar la-address-card la-3x"></i>
-        <h3 class="item">About Me</h3>
+        <div class="iconText">About</div>
     </div>
 
-    <div class="homeIcons">
+    <div style="color: red" class="homeIcons">
         <i class="las la-code la-3x"></i>
-        <h3>Projects</h3>
+        <div class="iconText">Projects</div>
     </div>
 
-    <div class="homeIcons">
+    <div style="color: blue" class="homeIcons">
         <i class="lar la-envelope la-3x"></i>    
-        <h3>Contact</h3>
+        <div class="iconText">Contact</div>
+    </div>
     </div>
 </div>
 

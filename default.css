@@ -6,14 +6,6 @@ p {
   font-size: 13pt;
 } 
 
-h1 {
-  color:white; 
-  padding-bottom: 15px; 
-  text-align: center; 
-  font-family: 'Roboto-Bold';
-  font-size: 50px;
-} 
-
 a {
   text-decoration: none;
 }
@@ -36,67 +28,147 @@ h3 {
 
 body {
   background-color: #e0e0e0;
+  width: 100%;
+  height: 100%;
 }
 
-.top {
-  padding-top: 140px;
-  padding-bottom: 100px;
-  padding-left: 10px;
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#menuBar {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  height: 7%;
+  min-height: 50px;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px 3px;
+}
+
+#menuBarLeft {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#name {
+  color: #292929;
+  font-size: 16px;
+  font-size:calc(13px + .7vh);
+  font-family: "Roboto-Thin";
+  text-transform: uppercase;
+  padding-left:calc(13px + .5vw);
+  white-space: nowrap;
+}
+
+#name a {
+  color: #292929;
+}
+
+#menuBarRight {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#menuItemsContainer {
+  list-style-type: none;
+  color: #292929;
+  background-color: white;
+  height: 100%;
+}
+
+.menuItems {
+  color: #292929;
+  font-size: 16px;
+  font-size:calc(13px + .7vh);
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 1.75vw;
+  padding-left: 1.75vw;
+  font-family: "Roboto-Thin";
+  float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menuItems:hover {
   background-color: #292929;
+  color: white;
 }
 
-.main {
-  padding-top: 75px;
-  font-size: 16pt;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 50px;
-  margin-top: -25px;
-  line-height: 30px;
+#top {
+  position: relative;
+  z-index: -1;
+  height: 40%;
+  min-height: 300px;
+  background-color: #292929;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:calc(24px + 1vh);
+  font-family: "Roboto-Bold";
+  color: white;
+  padding-top: 1vh;
+}
+
+#main {
   margin-left: 25px;
   margin-right: 25px;
+  margin-left: 3vw;
+  margin-right: 3vw;
   background-color: white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  height: 50vh;
-  min-height: 450px;
-  display: block;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 1.5vh;
+  border-top-right-radius: 1.5vh;
+  margin-top: -25px;
+  margin-top: -3vh;
+  min-height: auto;
+  min-height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .bottom {
   padding-top: 25px;
   padding-bottom: 25px;
-  font-size: 16pt;
-  line-height: 30px;
+  font-size: 16px;
+  font-size:calc(16px + .5vh);
   margin-left: 25px;
-  margin-right: 25px;  
-  margin-bottom: 0;
+  margin-right: 25px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  overflow: hidden;
   display: block;
   background-color: #292929;
   min-height: 100px;
-}
-
-.name {
-  color: #292929;
-  font-size: 15px;
-  display: inline-block;
-  padding: 16px;
-  font-family: "Roboto-Thin";
-  text-transform: uppercase;
-  background-color: white;
-}
-
-.name a {
-  color: #292929;
-}
-
-.menu {
-  float: right;
-  list-style-type: none;
-  color: #292929;
-  background-color: white;
+  height: 3vh;
   position: relative;
-  z-index: -1;
+}
+
+#mainWrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconText {
+  color: #292929;
 }
 
 @keyframes fadeIn {
@@ -106,29 +178,6 @@ body {
   100% {
     transform: translateY(0);
   }
-}
-
-.menuItems {
-  color: #292929;
-  font-size: 15px;
-  font-family: "Roboto-Thin";
-  float: left;
-  padding: 16px;
-  text-transform: uppercase;
-}
-
-.menuItems:hover {
-  background-color: #292929;
-  color: white;
-}
-
-.menuBar {
-  background-color: white;
-  height: 50px;
-  padding: 0px;
-  position: fixed;
-  width: 100%;
-  box-shadow: 0px 0px 3px 3px;
 }
 
 .menuIcon {
@@ -157,13 +206,13 @@ body {
 }
 
 .homeIcons {
-  margin-top: 90px;
-  display: inline-block;
-  padding: 50px;
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
+  padding: 5vw;
+  font-size:calc(20px + 1vw);
+  font-family: 'Roboto-Bold';
 }
 
 .homeIcons:hover {
@@ -175,7 +224,7 @@ body {
 
 .footer {
   text-align: center; 
-  font-size: 10pt; 
+  font-size:calc(10px + .5vh);; 
   color: white;
   font-family: 'Roboto-Thin';
   text-transform: uppercase;
@@ -215,28 +264,32 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .main {
+  #main {
     margin-left: 0;
     margin-right: 0;
     border-radius: 0;
+    width: 100%;
   }
 
   .bottom {
     margin-left: 0;
     margin-right: 0;
+    width: 100%;
   }
 
-  .menu {
+  #menuItemsContainer {
     width: 100%;
     margin-top: -6px;
     box-shadow: 0px 2px 1px 0px;
     visibility: hidden;
   }
 
-  .homeIcons {
-    display: block;
-    padding: 0px;
-    margin: 0;
+  #rightMenuBar {
+    display: inline;
+  }
+
+  #mainWrapper {
+    flex-direction: column;
   }
 
   .menuItems {
@@ -249,5 +302,11 @@ body {
 
   .closeIcon {
     display: inline;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  #name, .menuItems, .footer {
+    font-family: "Roboto-Bold";
   }
 }
