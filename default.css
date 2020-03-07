@@ -44,7 +44,7 @@ html {
   height: 7%;
   min-height: 50px;
   position: sticky;
-  z-index: 1;
+  z-index: 2;
   overflow: hidden;
   top: 0;
   box-shadow: 0px 0px 3px 3px;
@@ -165,7 +165,6 @@ html {
 }
 
 #menuButtonContainer {
-  display: flex;
   justify-content: center;
   align-items: center;
   display: none;
@@ -184,16 +183,58 @@ html {
   font-size:calc(13px + .5vh);
 }
 
+#dropDown {
+  background-color: white;
+  color: #292929;
+  position: fixed;
+  display: none;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 0px 3px 3px;
+}
+
+.dropDownItem {
+  font-family: "Roboto";
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.fadeIn {
+  animation-name: "fadeIn";
+  animation-duration: .5s;
+}
+
+.fadeOut {
+  animation-name: "fadeOut";
+  animation-duration: .75s;
+  animation-fill-mode: forwards;
+}
+
+.dropDownItem:hover {
+  color: white;
+  background-color: #292929;
+}
+
 .iconText {
   color: #292929;
 }
 
 @keyframes fadeIn {
   0% {
-    transform: translateY(-150px);
+    transform: translateY(-300px);
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-300px);
+    display: none;
   }
 }
 
@@ -263,23 +304,6 @@ html {
   text-decoration: none;
 }
 
-#toggle {
-  display: none;
-}
-
-#toggle:checked ~ .menu {
-  visibility: visible;
-  animation: fadeIn .25s 0s 1 normal ease-in forwards;
-}
-
-#toggle:checked ~ .menuIcon {
-  display: none;
-}
-
-#toggle:checked ~ .closeIcon {
-  visibility: visible;
-}
-
 @media screen and (max-width: 800px) {
   #main {
     margin-left: 0;
@@ -295,34 +319,15 @@ html {
   }
 
   #menuItemsContainer {
-    width: 100%;
-    margin-top: -6px;
-    box-shadow: 0px 2px 1px 0px;
-    visibility: hidden;
+    display: none;
   }
 
   #menuButtonContainer {
     display: flex;
   }
 
-  #rightMenuBar {
-    display: inline;
-  }
-
   #mainWrapper {
     flex-direction: column;
-  }
-
-  .menuItems {
-    float: none;
-  }
-
-  .menuIcon {
-    display: inline;
-  }
-
-  .closeIcon {
-    display: inline;
   }
 }
 
