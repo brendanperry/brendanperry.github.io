@@ -164,6 +164,26 @@ html {
   align-items: center;
 }
 
+#menuButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  position: relative;
+  width: 15%;
+}
+
+#button {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: #292929;
+  font-size: 13px;
+  font-size:calc(13px + .5vh);
+}
+
 .iconText {
   color: #292929;
 }
@@ -279,6 +299,10 @@ html {
     margin-top: -6px;
     box-shadow: 0px 2px 1px 0px;
     visibility: hidden;
+  }
+
+  #menuButtonContainer {
+    display: flex;
   }
 
   #rightMenuBar {

@@ -25,7 +25,10 @@
             <li class="menuItems">Projects</li>
             <li class="menuItems">Contact</li>
         </ul>
-    </div>   
+    </div> 
+    <div id="menuButtonContainer">
+        <button id="button" onclick="menuClick()"><i id="menuButton" class="las la-bars la-2x"></i></button>  
+    </div>
 </div>
 
 <div id="top">
@@ -56,5 +59,15 @@
     <p class="footer">Brendan Perry 2020</p>
 </div>
 
+<script>
+    function menuClick() {
+        if(document.getElementById("menuButton").className == "las la-bars la-2x") {
+            document.getElementById("menuButton").className = "las la-times la-2x";
+        }
+        else {
+            document.getElementById("menuButton").className = "las la-bars la-2x";
+        }
+    }
+</script>
 </body>
 </html> 
