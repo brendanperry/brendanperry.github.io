@@ -18,97 +18,86 @@
 <img src="images/logo.png" style="width: 100px; height: 100px"/>
 </div>
 <div id="top">
-    <h1>Brendan Perry</h1>
+    <h1 style="font-size: 1.5em;">Brendan Perry</h1>
     <p style="color: #5983EF">Software Developer</p>
-    <img src="images/profilePicture.jpg" style="width: 150px; height: 150px; border-radius: 100px;"/>
+    <img src="images/profilePicture.jpg" style="width: 150px; height: 150px; border-radius: 100px; box-shadow: 0 3px 3px #5983EF"/>
 </div>
 
-<div style="display: flex; flex-direction: column;">
 <div id="main">
-    <div id="mainLeft">
-        <h2 style="text-align: center; color: #5983EF">About</h2>
-        <div style="display: flex; justify-content: center; align-items: center; height: 80%;">
-        <p id="aboutText">My name is Brendan Perry. I am a student at Purdue Fort Wayne studying computer science. I currently work at Zimmer Biomet as an IT Intern. 
-        I love to learn new things and to build ideas into reality. My goal is to get a job as Software Developer after I graduate so I can continue to learn and build new things.</p>
-    </div>
-    </div>
-    <div id="mainRight">
-        <h2 style="text-align: center; color: #5983EF">Contact</h2>
-        <form action="https://formspree.io/xjvrlrzj" method="POST" id="form">        
-            <input placeholder="name" class="input" type="text" name="name" required>
-                
-            <br />
-            <input placeholder="email" class="input" type="email" name="_replyto" required>
-        
-            <br />
-            <textarea placeholder="say hi" class="input" name="message" required></textarea>
-
-            <input type="text" name="_gotcha" style="display:none" />
-            
-            <br />
-          <button id="sendButton">SEND</button>
-        </form>
-    </div>
+<div id="mainLeft">
+    <h1>About</h1>
 </div>
-
-<div id="projContainer">
-<h2 style="text-align: center; color: #5983EF">Projects</h2>
-<div id="proj">
-            <div class="homeIcons">
-                <a href="spinny-spot.html">
-                <img class="projectImages" src="images/spinny.jpg" alt="Spinny Spot" />
-                </a>
-            </div>
-        
-            <div class="homeIcons">
-                <a href="hexmesh-duo.html">
-                <img class="projectImages" src="images/hex.png" alt="Hexmesh" />
-                </a>
-            </div>
-        
-            <div class="homeIcons">
-                <a href="swap-the-colors.html">
-                <img class="projectImages" src="images/swap.png" alt="Swap the Colors" />    
-                </a>
-            </div>
-        
-            <div class="homeIcons">
-                <a href="color-invasion.html">
-                <img class="projectImages" src="images/color.jpg" alt="Color Invasion" />    
-                </a>
-            </div>
-        
-            <div class="homeIcons">
-                <a href="bomb-the-balls.html">
-                <img class="projectImages" src="images/bomb.jpg" alt="Bomb the Balls" />   
-                </a>
-            </div>
-        
-            <div class="homeIcons">
-                <a href="astro-scape.html">
-                <img class="projectImages" src="images/astro.jpg" alt="Astro-Scape" />    
-                </a>
-            </div>
-        
-            <div class="homeIcons">
-                <a href="murican-ninja.html">
-                <img class="projectImages" src="images/ninja.jpg" alt="Murican' Ninja" />    
-                </a>
-            </div>
-        
-            <div class="homeIcons">
-                <a href="website.html">
-                <img class="projectImages" src="images/webIcon.png" alt="Website" />    
-                </a>
-            </div>
-        
-</div>
+<div id="mainRight">
+    <p>I am a student at Purdue Fort Wayne studying computer science. I currently work at Zimmer Biomet as an IT Intern.
+    My freshman year of high school, I created my first app using Unity3D and C#. It was a small game, but it still very exciting for me. I loved creating games so much that decided to make seven more. I am currently working on number eight right now.
+    I love to learn new things and to build ideas into reality. My goal is to get a job as Software Developer after I graduate so I can continue to learn and build new things.</p>
 </div>
 </div>
 
+<div id="middle">
+    <h1 id="projBanner">Projects</h1>
+    <p>Here are my favorite.</p>
+
+    <div id="bigDisplay">
+        <div class="projWidget">
+            <img src="images/spinny.jpg" alt="spinny spot icon" />
+            <h2>Spinny Spot</h2>
+            <p>Spinny Spot is a 2D arcade game with over 100 different levels. It is my most recently published app made with Unity. It is on the iOS App Store.</p>
+        </div>
+        <div class="projWidget">
+            <img src="images/hex.png" alt="Hexmesh icon" />
+            <h2>Hexmesh Duo</h2>
+            <p>Hexmesh Duo is a 3D arcade shooter that requires the player to split their focus on both sides of the board. This is my current project. It will be on the iOS App Store.</p>
+        </div>
+        <div class="projWidget">
+            <img src="images/brokeLife.png" alt="BrokeLife icon" />
+            <h2>BrokeLife</h2>
+            <p>BrokeLife is a Java budgeting application that I am developing with a group of three other people at Purdue Fort Wayne. It is a standalone application for Windows 10.</p>
+        </div>
+    </div>
+
+    <div id="otherApps">
+        <div class="homeIcons">
+            <a href="swap-the-colors.html">
+            <img class="projectImages" src="images/swap.png" alt="Swap the Colors" />    
+            </a>
+        </div>
+    
+        <div class="homeIcons">
+            <a href="color-invasion.html">
+            <img class="projectImages" src="images/color.jpg" alt="Color Invasion" />    
+            </a>
+        </div>
+    
+        <div class="homeIcons">
+            <a href="bomb-the-balls.html">
+            <img class="projectImages" src="images/bomb.jpg" alt="Bomb the Balls" />   
+            </a>
+        </div>
+    
+        <div class="homeIcons">
+            <a href="astro-scape.html">
+            <img class="projectImages" src="images/astro.jpg" alt="Astro-Scape" />    
+            </a>
+        </div>
+    
+        <div class="homeIcons">
+            <a href="murican-ninja.html">
+            <img class="projectImages" src="images/ninja.jpg" alt="Murican' Ninja" />    
+            </a>
+        </div>
+    
+        <div class="homeIcons">
+            <a href="website.html">
+            <img class="projectImages" src="images/webIcon.png" alt="Website" />    
+            </a>
+        </div>
+    </div>
+</div>
+<div id="bottom">
     <p class="footer"><a href="https://github.com/brendanperry/brendanperry.github.io"><i class="lab la-github la-2x"></i></a></p>
     <p class="footer">Brendan Perry 2020</p>
-
+</div>
 
 <script src="../js/scripts.js"></script>
 </body>
