@@ -115,6 +115,7 @@ html {
   justify-content: center;
   font-size:calc(24px + 1vh);
   font-family: forma-djr-text, sans-serif;
+  /*regular font-weight: 400, med 500, bold 700
   color: white;
 }
 
