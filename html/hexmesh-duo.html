@@ -2,8 +2,8 @@
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="about.css">
-<link rel="stylesheet" type="text/css" href="fonts.css">
+<link rel="stylesheet" type="text/css" href="../css/about.css">
+<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
 <meta charset="UTF-8">
@@ -45,7 +45,7 @@
 
 <div id="main" style="text-align: center;">
     <div id="mainText">
-    <img id="profilePicture" src="images/hex.png" alt="profilePicture" />
+    <img id="profilePicture" src="../images/hex.png" alt="profilePicture" />
     <p>Hexmesh Duo is the most recent game that I have created. It will be published in 2020. My goal with this game was to expand my reach with Unity into a 3D game because all of my previous games are 2D. Most of the skills I had learned from previous projects were transferrable; however, there were a few key differences. </p>
     <p>One of the biggest changes was creating 3D objects. A good portion of my UI is built into the game board. I had to create these in Blender and import them into Unity. Obviously, the positioning system was a big change as I had to place the blocks on 3 axes instead of 2. Colliders were 3D as well which did not involve much work on my end, but it is still important.</p>
     <p>The most challenging part of building this game was the block spawner. The game board has 9 rows, and this was my focus. I kept track of the first block in each row so I would know what color was sitting there. All other blocks were kept in a list specific to that row. When a certain row is selected, it checks the block color currently there to the one it wants to spawn. If it is the same, it stacks the blocks; otherwise, it will push the block out. When the blocks are destroyed, they are removed from their rows and placed back into the list of blocks available to be spawned in.</p>
@@ -59,6 +59,5 @@
     <p class="footer">Brendan Perry 2020</p>
 </div>
 
-<script src="scripts.js"></script>
-</body>
+<script src="../js/scripts.js"></script></body>
 </html> 
