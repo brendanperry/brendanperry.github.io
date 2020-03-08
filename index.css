@@ -194,9 +194,10 @@ html {
 }
 
 .dropDownItem {
-  font-family: "Roboto";
+  font-family: "Roboto-Thin";
   padding: 20px;
   text-transform: uppercase;
+  color: #292929;
 }
 
 .fadeIn {
