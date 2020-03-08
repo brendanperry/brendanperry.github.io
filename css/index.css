@@ -114,7 +114,7 @@ html {
   align-items: center;
   justify-content: center;
   font-size:calc(24px + 1vh);
-  font-family: "Roboto-Bold";
+  font-family: forma-djr-text, sans-serif;
   color: white;
 }
 
