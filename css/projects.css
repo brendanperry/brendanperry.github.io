@@ -165,6 +165,10 @@ p {
     flex-wrap: wrap;
   }
 
+  #proj {
+    background-color: white;
+  }
+
   .projectImages {
     width: 150px;
     height: 150px;
