@@ -61,7 +61,7 @@ html {
   color: #292929;
   font-size: 16px;
   font-size:calc(13px + .7vh);
-  font-family: "Roboto-Thin";
+  font-family: "Roboto";
   text-transform: uppercase;
   padding-left:calc(13px + .5vw);
   white-space: nowrap;
@@ -90,7 +90,7 @@ html {
   padding-left: 15px;
   padding-right: 1.75vw;
   padding-left: 1.75vw;
-  font-family: "Roboto-Thin";
+  font-family: "Roboto";
   float: right;
   height: 100%;
   display: flex;
@@ -194,7 +194,7 @@ html {
 }
 
 .dropDownItem {
-  font-family: "Roboto-Thin";
+  font-family: "Roboto";
   padding: 20px;
   text-transform: uppercase;
   color: #292929;
@@ -285,7 +285,7 @@ html {
   text-align: center; 
   font-size:calc(10px + .5vh);; 
   color: white;
-  font-family: 'Roboto-Thin';
+  font-family: 'Roboto';
   text-transform: uppercase;
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
@@ -329,11 +329,5 @@ html {
 
   #mainWrapper {
     flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  #name, .menuItems, .footer {
-    font-family: "Roboto-Bold";
   }
 }
