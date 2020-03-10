@@ -53,10 +53,67 @@ html {
   color: #5983EF;
 }
 
+#holder {
+  min-height: 100%;
+  position: relative;
+}
+
+#mainContact {
+  padding-bottom: 200px;
+}
+
 #main {
   display: flex;
   justify-content: left;
   align-items: center;
+}
+
+#topBox {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.input {
+  border: 2px solid #5983EF;
+  border-radius: 10px;
+  font-family: "Roboto";
+  padding: 10px;
+}
+
+#nameBox {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#emailBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  width: 40%;
+}
+
+#messageBox {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  margin: 20px;
+  width: 1000px;
+}
+
+#messageField {
+  border: 2px solid #5983EF;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+  height: 300px;
+  font-family: "Roboto";
 }
 
 #mainLeft {
@@ -71,6 +128,10 @@ html {
   margin-right: 25px;
   font-family: "Roboto-Bold";
   font-size: 24px;
+}
+
+#middle {
+  padding-bottom: 200px;
 }
 
 #middle p {
@@ -181,16 +242,17 @@ html {
 }
 
 #bottom {
+  bottom: 0;
+  position: absolute;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 16px;
   font-size:calc(16px + .5vh);
   overflow: hidden;
-  display: block;
   background-color: #5983EF;
   min-height: 100px;
   height: 3vh;
-  position: relative;
+  width: 100%;
 }
 
 #menuButtonContainer {
@@ -271,24 +333,11 @@ html {
   text-decoration: none;
 }
 
-#form {
-  text-align: center;
-  overflow: hidden;
+label {
+  font-family: "Roboto";
   padding: 10px;
 }
 
-.input {
-  border: none;
-  border-bottom: 1px solid #292929;
-  text-align: left;
-  padding: 10px;
-  margin-bottom: 25px;
-  font-family: "Roboto-Thin";
-  width:calc(200px + 10vw);
-  scrollbar-width: none;
-  overflow-y: scroll;
-  resize: vertical;
-}
 
 #aboutText {
   font-size:calc(14px + .5vw);
@@ -297,35 +346,43 @@ html {
 }
 
 #sendButton {
-width:calc(50px + 2vh);
-height:calc(40px + 1vh);
-font-family: "Roboto-Bold";
-background-color: #5983EF;
-color: white;
-border-radius: 10px;
-margin-top: -12px;
-padding: 0;
-border: none;
-transition: all .1s linear;
--webkit-transition: all .1s linear;
--moz-transition: all .1s linear;
--ms-transition: all .1s linear;
+  width:calc(50px + 2vh);
+  height:calc(40px + 1vh);
+  font-family: "Roboto-Bold";
+  background-color: #5983EF;
+  color: white;
+  border-radius: 10px;
+  margin-top: -12px;
+  padding: 0;
+  border: none;
+  transition: all .1s linear;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -ms-transition: all .1s linear;
 }
 
 #sendButton:hover {
-transform: scale(1.1);
--webkit-transform: scale(1.1);
--moz-transform: scale(1.1);
--ms-transform: scale(1.1);
-}
-
-.formHeadings {
-  font-family: "Roboto-Bold";
-  text-align: left;
-  display: inline;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
 }
 
 @media screen and (max-width: 800px) {
+
+  #topBox {
+    flex-direction: column;
+  }
+
+  .input {
+    width: 90%;
+  }
+
+  #nameBox, #emailBox {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 
   #proj {
     flex-wrap: wrap;

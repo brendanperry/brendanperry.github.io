@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>Contact</title>
+
+</head>
+<body>
+<div id="holder">
+
+<!--header-->
+<div style="background-color: white;">
+<a href="index.html"><img src="images/logo.png" style="width: 100px; height: 100px"/></a>
+<!--<a href="html/contact.html"><button id="contactButton">Contact</button></a>-->
+</div>
+
+<!--top-->
+<div id="top" style="height: 20%; min-height: 200px;">
+    <h1 style="font-size: 1.5em;">Want to reach out?</h1>
+    <p>Contact me here or connect with me on LinkedIn</p>
+</div>
+
+<!--main-->
+<div id="mainContact" style="display: flex; justify-content: center; align-items: center;">
+    <form action="https://formspree.io/xjvrlrzj" method="POST">
+        <div id="topBox">
+        <div id="nameBox"><p>Name</p><input class="input" type="text" name="name"></div>
+        <div id="emailBox"><p>Email</p><input class="input" type="email" name="_replyto"></div>
+        </div>
+        <div id="messageBox">
+        <label>Message</label><br /><textarea id="messageField" name="message"></textarea>
+        </div>
+        <div style="text-align: center;">
+        <input style="float:none;" id="contactButton" type="submit" value="Send">
+        </div>
+    </form>
+</div>
+
+<!--footer-->
+<div id="bottom">
+    <p class="footer"><a href="https://github.com/brendanperry/brendanperry.github.io"><i class="lab la-github la-2x"></i></a>
+        <a href="https://linkedin.com/in/brendanperry/"><i class="lab la-linkedin la-2x"></i></a></p>
+    <p class="footer">Privacy Policy</p>
+</div>
+</div>
+
+<script src="../js/scripts.js"></script>
+</body>
+</html> 
