@@ -1,122 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
+   <head>
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <link rel="stylesheet" type="text/css" href="css/fonts.css">
+      <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type="text/css" href="css/index.css">
-<link rel="stylesheet" type="text/css" href="css/fonts.css">
-<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+      <title>Swap the Colors</title>
+   </head>
+   <body>
+      <div id="holder">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+         <div id="header">
+            <a href="index.html" alt="home"><img src="images/logo.png" style="width: 100px; height: 100px"/></a>
+            <a href="html/contact.html"><button id="contactButton">Contact</button></a>
+         </div>
 
-<title>Swap the Colors</title>
+         <div id="top">
+            <h1>Swap the Colors</h1>
+            <p>iOS App</p>
+            <img src="images/swap.png" style="width: 150px; height: 150px; border-radius: 20px; box-shadow: 0 3px 3px #5983EF"/>
+         </div>
 
-</head>
-<body>
-<div id="holder">
+         <div id="about">
+            <div id="aboutLeft">
+               <h1>About</h1>
+            </div>
+            <div id="aboutRight">
+               <p>Swap the Colors was the second to last app that I published before recently releasing Spinny Spot. I would consider this game to be one of the most well rounded that I had made at the time because it brought together a decent looking user interface and fun gameplay.</p>
+               <p>The biggest challenge that I faced while creating Swap the Colors was creating the system for the bar at the bottom to move whenever the user tapped. It was difficult because I had to wrap the bar around the screen. I had to work around this by checking the location of each box and copying them over to either side of the screen depending on where the user clicked.</p>
+               <p>I also continued to work with particle effects in this app as I had done with Color Invasion. Spinny Spot shows that I have advanced in my skills related to using the particle emitter, but Swap the Colors does not have a need for anything too advanced.</p>
+               <p>I enjoyed making this app because I really started to understand and comprehend the code that I was writing. This allowed me branch out a little bit and try new things. I am glad that I kept making apps long enough in high school to make this one.</p>
+            </div>
+         </div>
 
-<div style="background-color: white;">
-<a href="index.html" alt="home"><img src="images/logo.png" style="width: 100px; height: 100px"/></a>
-<a href="html/contact.html"><button id="contactButton">Contact</button></a>
-</div>
-<div id="top">
-    <h1 style="font-size: 1.5em;">Swap the Colors</h1>
-    <p>iOS App</p>
-    <img src="images/swap.png" style="width: 150px; height: 150px; border-radius: 20px; box-shadow: 0 3px 3px #5983EF"/>
-</div>
+         <div id="middle">
+            <h1 id="projBanner">Screenshots</h1>
+            <div id="bigDisplay">
+               <div>
+                  <img class="imgWidget" src="images/screenshots/swap-the-colors/swap1.jpg" alt="screenshot 1" />
+               </div>
+               <div>
+                  <img class="imgWidget" src="images/screenshots/swap-the-colors/swap2.jpg" alt="screenshot 2" />
+               </div>
+               <div>
+                  <img class="imgWidget" src="images/screenshots/swap-the-colors/swap3.jpg" alt="screenshot 3" />
+               </div>
+               <div>
+                  <img class="imgWidget" src="images/screenshots/swap-the-colors/swap4.jpg" alt="screenshot 4" />
+               </div>
+               <div>
+                  <img class="imgWidget" src="images/screenshots/swap-the-colors/swap5.jpg" alt="screenshot 5" />
+               </div>
+            </div>
 
-<div id="main">
-<div id="mainLeft">
-    <h1>About</h1>
-</div>
-<div id="mainRight">
-    <p>Swap the Colors was the second to last app that I published before recently releasing Spinny Spot. I would consider this game to be one of the most well rounded that I had made at the time because it brought together a decent looking user interface and fun gameplay.</p>
-    <p>The biggest challenge that I faced while creating Swap the Colors was creating the system for the bar at the bottom to move whenever the user tapped. It was difficult because I had to wrap the bar around the screen. I had to work around this by checking the location of each box and copying them over to either side of the screen depending on where the user clicked.</p>
-    <p>I also continued to work with particle effects in this app as I had done with Color Invasion. Spinny Spot shows that I have advanced in my skills related to using the particle emitter, but Swap the Colors does not have a need for anything too advanced.</p>
-    <p>I enjoyed making this app because I really started to understand and comprehend the code that I was writing. This allowed me branch out a little bit and try new things. I am glad that I kept making apps long enough in high school to make this one.</p>
-    </div>
-</div>
+            <p>Check out my other projects.</p>
 
-<div id="middle">
-    <h1 id="projBanner">Screenshots</h1>
+            <div id="otherApps">
+               <div class="homeIcons">
+                  <a href="spinny-spot.html">
+                  <img class="projectImages" src="images/spinny.jpg" alt="Spinny Spot icon" />    
+                  </a>
+               </div>
+               <div class="homeIcons">
+                  <a href="hexmesh-duo.html">
+                  <img class="projectImages" src="images/hex.png" alt="hexmesh-duo icon" />    
+                  </a>
+               </div>
+               <div class="homeIcons">
+                  <a href="brokelife.html">
+                  <img class="projectImages" src="images/brokeLife.png" alt="BrokeLife icon" />    
+                  </a>
+               </div>
+               <div class="homeIcons">
+                  <a href="color-invasion.html">
+                  <img class="projectImages" src="images/color.jpg" alt="Color Invasion" />    
+                  </a>
+               </div>
+               <div class="homeIcons">
+                  <a href="bomb-the-balls.html">
+                  <img class="projectImages" src="images/bomb.jpg" alt="Bomb the Balls" />   
+                  </a>
+               </div>
+               <div class="homeIcons">
+                  <a href="astro-scape.html">
+                  <img class="projectImages" src="images/astro.jpg" alt="Astro-Scape" />    
+                  </a>
+               </div>
+               <div class="homeIcons">
+                  <a href="murican-ninja.html">
+                  <img class="projectImages" src="images/ninja.jpg" alt="Murican' Ninja" />    
+                  </a>
+               </div>
+               <div class="homeIcons">
+                  <a href="website.html">
+                  <img class="projectImages" src="images/logo.png" alt="Website" />    
+                  </a>
+               </div>
+            </div>
+         </div>
 
-    <div id="bigDisplay">
-        <div>
-            <img class="imgWidget" src="images/screenshots/swap-the-colors/swap1.jpg" alt="screenshot 1" />
-        </div>
-        <div>
-            <img class="imgWidget" src="images/screenshots/swap-the-colors/swap2.jpg" alt="screenshot 2" />
-        </div>
-        <div>
-            <img class="imgWidget" src="images/screenshots/swap-the-colors/swap3.jpg" alt="screenshot 3" />
-        </div>
-        <div>
-            <img class="imgWidget" src="images/screenshots/swap-the-colors/swap4.jpg" alt="screenshot 4" />
-        </div>
-        <div>
-            <img class="imgWidget" src="images/screenshots/swap-the-colors/swap5.jpg" alt="screenshot 5" />
-        </div>
-    </div>
+         <div id="bottom">
+            <p class="footer"><a href="https://github.com/brendanperry/brendanperry.github.io"><i class="lab la-github la-2x"></i></a>
+               <a href="https://linkedin.com/in/brendanperry"><i class="lab la-linkedin la-2x"></i></a>
+            </p>
+            <p class="footer"><a href="privacy-policies/privacy-policy.html">Privacy Policy</p></a>
+         </div>
+      </div>
 
-    <p>Check out my other projects.</p>
+      <script src="js/scripts.js"></script>
+   </body>
+</html>
 
-    <div id="otherApps">
-        <div class="homeIcons">
-            <a href="spinny-spot.html">
-            <img class="projectImages" src="images/spinny.jpg" alt="Spinny Spot icon" />    
-            </a>
-        </div>
-
-        <div class="homeIcons">
-            <a href="hexmesh-duo.html">
-            <img class="projectImages" src="images/hex.png" alt="hexmesh-duo icon" />    
-            </a>
-        </div>
-
-        <div class="homeIcons">
-            <a href="brokelife.html">
-            <img class="projectImages" src="images/brokeLife.png" alt="BrokeLife icon" />    
-            </a>
-        </div>
-    
-        <div class="homeIcons">
-            <a href="color-invasion.html">
-            <img class="projectImages" src="images/color.jpg" alt="Color Invasion" />    
-            </a>
-        </div>
-    
-        <div class="homeIcons">
-            <a href="bomb-the-balls.html">
-            <img class="projectImages" src="images/bomb.jpg" alt="Bomb the Balls" />   
-            </a>
-        </div>
-    
-        <div class="homeIcons">
-            <a href="astro-scape.html">
-            <img class="projectImages" src="images/astro.jpg" alt="Astro-Scape" />    
-            </a>
-        </div>
-    
-        <div class="homeIcons">
-            <a href="murican-ninja.html">
-            <img class="projectImages" src="images/ninja.jpg" alt="Murican' Ninja" />    
-            </a>
-        </div>
-    
-        <div class="homeIcons">
-            <a href="website.html">
-            <img class="projectImages" src="images/logo.png" alt="Website" />    
-            </a>
-        </div>
-    </div>
-</div>
-<div id="bottom">
-    <p class="footer"><a href="https://github.com/brendanperry/brendanperry.github.io"><i class="lab la-github la-2x"></i></a>
-        <a href="https://linkedin.com/in/brendanperry"><i class="lab la-linkedin la-2x"></i></a></p>
-    <p class="footer">Privacy Policy</p>
-</div>
-</div>
-
-<script src="../js/scripts.js"></script>
-</body>
-</html> 
