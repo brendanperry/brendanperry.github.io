@@ -2,17 +2,29 @@ p {
   color: #292929;
   text-align: left;
   padding: 10px;
-  font-family: "Roboto";
-  font-size: 13pt;
+  font-family: Roboto;
+  font-size:calc(14px + .75vw);
+  line-height: 1.25em;
 } 
 
 a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: "Roboto-Bold";
+  font-size:calc(20px + 2vw);
+}
+
 h2 {
   padding: 10px;
   font-family: "Roboto-Bold";
+  font-size:calc(16px + 3vw);
+}
+
+h3 {
+  font-family: "Roboto-Bold";
+  font-size:calc(13px + 1vw);
 }
 
 * {
@@ -31,6 +43,10 @@ html {
   height: 100%;
 }
 
+#header {
+  background-color: white;
+}
+
 #top {
   position: relative;
   z-index: -1;
@@ -43,9 +59,7 @@ html {
   justify-content: top;
   flex-direction: column;
   font-size:calc(24px + 1vh);
-  font-family: forma-djr-text, sans-serif;
-  /*regular font-weight: 400, med 500, bold 700
-  color: white;*/
+  font-family: Roboto-Bold;
 }
 
 #top p {
@@ -62,7 +76,13 @@ html {
   padding-bottom: 200px;
 }
 
-#main {
+#mainPrivacy {
+  font-family: "Roboto";
+  padding-bottom: 150px;
+}
+
+#about {
+  margin-top: 50px;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -77,7 +97,7 @@ html {
 .input {
   border: 2px solid #5983EF;
   border-radius: 10px;
-  font-family: "Roboto";
+  font-family: Roboto;
   padding: 10px;
 }
 
@@ -113,20 +133,20 @@ form {
   resize: none;
   padding: 10px;
   height: 300px;
-  font-family: "Roboto";
+  font-family: Roboto;
 }
 
-#mainLeft {
+#aboutLeft {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #5983EF;
   width: 30%;
   text-align: center;
-  height: 100px;
+  height:calc(100px + 1vw);
   color: white;
   margin-right: 25px;
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold;
   font-size: 24px;
 }
 
@@ -139,13 +159,16 @@ form {
 }
 
 #projBanner {
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Roboto-Bold;
+  height:calc(100px + 1vw);
+  padding: 10px;
   font-family: "Roboto-Bold";
-  height: 100px;
-  font-size: 40px;
+  font-size:calc(20px + 2vw);
   color: white;
   background-color: #5983EF;
   text-align: center;
@@ -160,16 +183,14 @@ form {
 }
 
 .projWidget {
-  height: 400px;
-  width: 300px;
+  width:calc(250px + 4vw);
+  height:calc(500px + 4vh);
   background-color: #5983EF;
   color: white;
   border-radius: 20px;
   margin: 20px;
+  padding: 10px;
   text-align: center;
-}
-
-.projWidget {
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -192,16 +213,17 @@ form {
 .projWidget p {
   color: white;
   padding: 20px;
+  font-size:calc(15px + .75vh);
 }
 
 .projWidget img {
-  width: 100px;
-  height: 100px;
+  width:calc(100px + 2vh);
+  height: auto;
   border-radius: 20px;
   margin-top: 20px;
 }
 
-#mainRight {
+#aboutRight {
   width: 60%;
   text-align: center;
   padding: 20px;
@@ -226,8 +248,8 @@ form {
 }
 
 .projectImages {
-  width: 50px;
-  height: 50px;
+  width:calc(50px + 1vw);
+  height:calc(50px + 1vw);
   border-radius: 10px;
 }
 
@@ -236,7 +258,7 @@ form {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
-  font-family: 'Roboto-Bold';
+  font-family: Roboto-Bold;
   text-align: center;
   margin: 0 -25px;
 }
@@ -255,14 +277,6 @@ form {
   width: 100%;
 }
 
-#menuButtonContainer {
-  justify-content: center;
-  align-items: center;
-  display: none;
-  position: relative;
-  width: 15%;
-}
-
 #contactButton {
   display: inline;
   float: right;
@@ -276,13 +290,13 @@ form {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
-  font-family: "Roboto-Bold";
+  font-family: Roboto-Bold;
   font-size: 13px;
 }
 
 .imgWidget {
   height: auto;
-  width: 200px;
+  width:calc(200px + 4vw);
   border-radius: 20px;
   margin: 20px;
 }
@@ -299,7 +313,7 @@ form {
   -ms-transition: all .2s ease-in-out;
   padding: 5vw;
   font-size:calc(20px + 1vw);
-  font-family: 'Roboto-Bold';
+  font-family: Roboto-Bold;
 }
 
 .homeIcons:hover {
@@ -313,7 +327,7 @@ form {
   color: white;
   text-align: center; 
   font-size:calc(10px + .5vh);; 
-  font-family: 'Roboto';
+  font-family: Roboto;
   text-transform: uppercase;
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
@@ -334,10 +348,9 @@ form {
 }
 
 label {
-  font-family: "Roboto";
+  font-family: Roboto;
   padding: 10px;
 }
-
 
 #aboutText {
   font-size:calc(14px + .5vw);
@@ -345,27 +358,10 @@ label {
   padding: 20px;
 }
 
-#sendButton {
-  width:calc(50px + 2vh);
-  height:calc(40px + 1vh);
-  font-family: "Roboto-Bold";
-  background-color: #5983EF;
-  color: white;
-  border-radius: 10px;
-  margin-top: -12px;
-  padding: 0;
-  border: none;
-  transition: all .1s linear;
-  -webkit-transition: all .1s linear;
-  -moz-transition: all .1s linear;
-  -ms-transition: all .1s linear;
-}
-
-#sendButton:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 10px;
 }
 
 @media screen and (max-width: 800px) {
@@ -400,16 +396,16 @@ label {
     margin: 0;
   }
 
-  #main {
+  #about {
     flex-wrap: wrap;
   }
 
-  #mainLeft {
+  #aboutLeft {
     margin-right: 0;
     width: 100%;
   }
   
-  #mainRight {
+  #aboutRight {
     margin-top: 10px;
     width: 90%;
   }
