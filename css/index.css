@@ -3,7 +3,7 @@ p {
   text-align: left;
   padding: 10px;
   font-family: Roboto;
-  font-size:calc(14px + .75vw);
+  font-size:calc(14px + .5vw);
   line-height: 1.25em;
 } 
 
