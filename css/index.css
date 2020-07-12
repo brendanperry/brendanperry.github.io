@@ -290,6 +290,7 @@ form {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
+  -webkit-appearance: none;
   font-family: Roboto-Bold;
   font-size: 13px;
 }
