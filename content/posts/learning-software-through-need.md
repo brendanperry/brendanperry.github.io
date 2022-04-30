@@ -1,0 +1,23 @@
+---
+title: "Learning Software Through Need"
+date: 2021-07-31
+draft: false
+---
+
+When I began my journey into software development, I only really wanted one thing. My goal was to create a mobile game. This was long before I had taken a single programming course, so I had no idea what I was doing. I searched for resources and decided to start learning Unity. The biggest thing in the way of my perfect mobile game was the fact that I didn’t know how to code. Where does a beginner go from here? Did I buy a book on C# and work my way up to basic data structures and algorithms? Not quite.
+
+The path that I took was the path that I needed. I began by watching some Unity tutorials. I got the feel for the software, and decided it was time to begin. I sketched out a very simple game idea and began with the mindset that I would like to describe here. I started with a problem, and then I figured out how to solve that problem. This could have been how to change scenes, import images, or change graphics settings. I learned what I needed to complete the task at hand. It was this mindset that carried me all the way through.
+
+However, what I had accomplished was far from perfect. There were gaping holes in my knowledge. The game was not the next Flappy Bird to my surprise. It took me two whole apps before I understood how to use a for loop. But what I had learned was stuck in my brain. The skills that I had built may not have been perfect, but I understood generally what I was doing and why. What can we take away from this? Let’s start back at the beginning.
+
+The first thing you learn as a programmer is how to print Hello World! How exhilarating. We’re now a few if statements away from solving all the world’s problems. This step forces you to trust the syntax that is supposed to magically work. We file away explaining how things are compiled, and many other more complicated processes are thrown into the black box.
+
+Once we have Hello World! what follows is a boring PowerPoint on data types, semicolons, and basic arithmetic operations. This is largely unhelpful and exactly what my CS 160 class was like. What we want to do instead is to show the goal. Let’s say a simple console-based menu for a restaurant. The students have one tool in their belt. They can print Hello World! The goal is to give them tools once they see the value of these tools. Show them why they need variables, then give them variables, and then teach them the constraints. If you give them something without showing its usefulness, they will not learn it until they do need it, and any teaching you do between those two points will be much less effective. If our goal is a menu, then we need to print something other than Hello World! This part is easy. The next part is to print something specific based on user input. That requires a new tool. By breaking down large problems into bite sized chunks, we allow growth to be natural while still having the larger picture in view.
+
+The essential difference in teaching style here is that you let the student hit the roadblock and realize the extent of their current tool set. At this point they will see the need for another tool or skill, and in this frame of mind the student is most prepared to learn. This means that your job as a teacher is to give them good problems to solve such that they will hit the roadblocks that you intend, thus showing them the need for what you want to teach to them.
+
+Recently, I began learning about how to deal with legacy code. I watched an hour-long video on unit testing, but none of it made any sense to me because I had never tried unit testing legacy code before. I never realized my need for these methods because I never had hit those roadblocks myself. They only began to make sense after I got into the code and tried unit testing without these methods. After being stuck myself with my current skills, I realized my need for learning. Everything began to make sense once I could see the problem.
+
+If I could go back and be a mentor for myself when I had begun, I would push for the same kind of learning that I was doing before. However, I would take things slower by presenting smaller problems and building up to the things that I really wanted to do. This would have helped me solidify my foundational skills and made tackling larger problems much more attainable.
+
+It is useful to think of a teacher as a guide. We lead the students to the problems that will help them most. We let them fail once they reach them, and then, we give them a new tool with which they can complete the task at hand. By following this method of teaching, students not only become better at programming, but they also become better at learning. That is the ultimate goal.

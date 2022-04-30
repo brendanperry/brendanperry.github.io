@@ -1,0 +1,66 @@
+baseURL = "https://brendanperry.me/"
+title = "brendanperry.me"
+theme = "PaperMod"
+
+[params]
+env = "production"
+title = "Brendan Perry"
+description = "Personal Website"
+keywords = [ "Blog", "Portfolio", "Software", "Brendan", "Perry", "Software Engineer", "Software Developer", "iOS" ]
+author = "Brendan Perry"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "dark"
+disableThemeToggle = false
+ShowCodeCopyButtons = true
+disableScrollToTop = false
+comments = false
+
+  [params.label]
+  text = "Home"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = "Brendan Perry"
+  subtitle = "Software Engineer"
+  imageUrl = "/profilePicture.jpg"
+  imageWidth = 200
+  imageHeight = 200
+  imageTitle = "Headshot"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "projects"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/brendanperry"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/brendanperry"
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "projects"
+name = "projects"
+url = "/projects/"
+weight = 20
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
