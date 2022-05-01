@@ -2,13 +2,15 @@ baseURL = "https://brendanperry.me/"
 title = "brendanperry.me"
 theme = "PaperMod"
 
+[taxonomies]
+   tag = "tags"
+
 [params]
 env = "production"
 title = "Brendan Perry"
 description = "Personal Website"
 keywords = [ "Blog", "Portfolio", "Software", "Brendan", "Perry", "Software Engineer", "Software Developer", "iOS" ]
 author = "Brendan Perry"
-images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "dark"
 disableThemeToggle = false
@@ -17,7 +19,7 @@ disableScrollToTop = false
 comments = false
 
   [params.label]
-  text = "Home"
+  text = "Brendan Perry"
   iconHeight = 35
 
   [params.profileMode]
@@ -37,6 +39,10 @@ comments = false
     name = "Projects"
     url = "projects"
 
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
   [[params.socialIcons]]
   name = "linkedin"
   url = "https://linkedin.com/in/brendanperry"
@@ -44,6 +50,10 @@ comments = false
   [[params.socialIcons]]
   name = "github"
   url = "https://github.com/brendanperry"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "https://keyserver.ubuntu.com/pks/lookup?search=brendan%40brendanperry.me&fingerprint=on&op=index"
 
 [[menu.main]]
 identifier = "posts"
@@ -57,7 +67,11 @@ name = "projects"
 url = "/projects/"
 weight = 20
 
-
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 30
 
 [markup]
   [markup.goldmark]

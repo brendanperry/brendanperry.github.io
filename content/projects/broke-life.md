@@ -1,7 +1,8 @@
 ---
 title: "Broke Life"
-date: 2022-04-30T01:39:22-04:00
-draft: true
+date: 2020-05-05
+draft: false
+tags: ["School"]
 ---
 
 {{< figure src="/brokeLife.png" alt="App Icon" width="200" >}}

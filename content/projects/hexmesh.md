@@ -1,10 +1,11 @@
 ---
 title: "Hexmesh"
-date: 2022-04-30T01:39:15-04:00
-draft: true
+date: 2020-07-13
+draft: false
+tags: ["Unity", "iOS"]
 ---
 
-
+{{< figure src="/hex.png" alt="App Icon" width="200" >}}
 
 Hexmesh Duo is the most recent game that I have created. It has currently been put on hold for other projects. My goal with this game was to expand my reach with Unity into a 3D game because all of my previous games are 2D. Most of the skills I had learned from previous projects were transferrable; however, there were a few key differences.
 

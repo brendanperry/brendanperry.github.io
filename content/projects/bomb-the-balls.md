@@ -1,7 +1,8 @@
 ---
 title: "Bomb the Balls"
-date: 2022-04-30T01:39:37-04:00
+date: 2016-09-25
 draft: false
+tags: ["Unity", "iOS"]
 ---
 
 {{< figure src="/bomb.jpg" alt="App Icon" width="200" >}}

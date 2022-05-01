@@ -1,7 +1,8 @@
 ---
 title: "Spinny Spot"
-date: 2022-04-30T00:25:32-04:00
+date: 2018-08-24
 draft: false
+tags: ["Unity", "iOS"]
 ---
 
 {{< figure src="/spinny.jpg" alt="App Icon" width="200" >}}

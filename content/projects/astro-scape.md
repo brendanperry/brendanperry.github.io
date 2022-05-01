@@ -1,7 +1,8 @@
 ---
 title: "Astro-Scape"
-date: 2022-04-30T01:39:42-04:00
+date: 2015-11-26
 draft: false
+tags: ["Unity", "iOS"]
 ---
 
 {{< figure src="/astro.jpg" alt="App Icon" width="200" >}}
@@ -9,6 +10,7 @@ draft: false
 [iOS App Store](https://apps.apple.com/us/app/astro-scape-space-arcade/id976963426)
 
 [GitHub](https://github.com/brendanperry/Astro-Scape)
+
 
 Astro-Scape is the second game that I made using Unity3D. The game takes place in space, and the player’s role is to maneuver their ship through a meteor field. I made this game in 2015 alongside my brother and cousin who helped with ideas and design. Like all of my other apps made in Unity, I programmed it using C#.
 
