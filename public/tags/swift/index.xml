@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Swift on brendanperry.me</title>
+    <link>https://brendanperry.me/tags/swift/</link>
+    <description>Recent content in Swift on brendanperry.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 30 Apr 2022 12:26:00 -0400</lastBuildDate><atom:link href="https://brendanperry.me/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sporadic</title>
+      <link>https://brendanperry.me/projects/sporadic/</link>
+      <pubDate>Sat, 30 Apr 2022 12:26:00 -0400</pubDate>
+      
+      <guid>https://brendanperry.me/projects/sporadic/</guid>
+      <description>Website
+Sporadic is the current project that I am working on. It is a simple app that gives you random workouts throughout the week.
+It is a native iOS app built with Swift UI. I took on this project to learn how to build non-game apps. I have learned a lot about Swift, Swift UI, and iOS in general. This includes things such as local notifications, swapping app icons, and light/dark mode switching.</description>
+    </item>
+    
+  </channel>
+</rss>
