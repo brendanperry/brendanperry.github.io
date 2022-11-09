@@ -10,15 +10,15 @@
 <meta name="description" content="Hexmesh Duo is the most recent game that I have created. It has currently been put on hold for other projects. My goal with this game was to expand my reach with Unity into a 3D game because all of my previous games are 2D. Most of the skills I had learned from previous projects were transferrable; however, there were a few key differences.
 One of the biggest changes was creating 3D objects.">
 <meta name="author" content="Brendan Perry">
-<link rel="canonical" href="https://brendanperry.github.io/projects/hexmesh/">
+<link rel="canonical" href="https://brendanperry.me/projects/hexmesh/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.ec8da366ca2fb647537ccb7a8f6fa5b4e9cd3c7a0d3171dd2d3baad1e49c8bfc.css" integrity="sha256-7I2jZsovtkdTfMt6j2&#43;ltOnNPHoNMXHdLTuq0eSci/w=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.2840b7fccd34145847db71a290569594bdbdb00047097f75d6495d162f5d7dff.js" integrity="sha256-KEC3/M00FFhH23GikFaVlL29sABHCX911kldFi9dff8="
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
     onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="https://brendanperry.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://brendanperry.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://brendanperry.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://brendanperry.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://brendanperry.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="https://brendanperry.me/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brendanperry.me/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brendanperry.me/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://brendanperry.me/apple-touch-icon.png">
+<link rel="mask-icon" href="https://brendanperry.me/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -33,7 +33,7 @@ One of the biggest changes was creating 3D objects.">
 <meta property="og:description" content="Hexmesh Duo is the most recent game that I have created. It has currently been put on hold for other projects. My goal with this game was to expand my reach with Unity into a 3D game because all of my previous games are 2D. Most of the skills I had learned from previous projects were transferrable; however, there were a few key differences.
 One of the biggest changes was creating 3D objects." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://brendanperry.github.io/projects/hexmesh/" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="https://brendanperry.me/projects/hexmesh/" /><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2020-07-13T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2020-07-13T00:00:00&#43;00:00" /><meta property="og:site_name" content="Brendan Perry" />
 
@@ -52,13 +52,13 @@ One of the biggest changes was creating 3D objects."/>
       "@type": "ListItem",
       "position":  1 ,
       "name": "Projects",
-      "item": "https://brendanperry.github.io/projects/"
+      "item": "https://brendanperry.me/projects/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Hexmesh",
-      "item": "https://brendanperry.github.io/projects/hexmesh/"
+      "item": "https://brendanperry.me/projects/hexmesh/"
     }
   ]
 }
@@ -73,7 +73,7 @@ One of the biggest changes was creating 3D objects."/>
   "keywords": [
     "Unity", "iOS"
   ],
-  "articleBody": "  Hexmesh Duo is the most recent game that I have created. It has currently been put on hold for other projects. My goal with this game was to expand my reach with Unity into a 3D game because all of my previous games are 2D. Most of the skills I had learned from previous projects were transferrable; however, there were a few key differences.\nOne of the biggest changes was creating 3D objects. A good portion of my UI is built into the game board. I had to create these in Blender and import them into Unity. Obviously, the positioning system was a big change as I had to place the blocks on 3 axes instead of 2. Colliders were 3D as well which did not involve much work on my end, but it is still important.\nThe most challenging part of building this game was the block spawner. The game board has 9 rows, and this was my focus. I kept track of the first block in each row so I would know what color was sitting there. All other blocks were kept in a list specific to that row. When a certain row is selected, it checks the block color currently there to the one it wants to spawn. If it is the same, it stacks the blocks; otherwise, it will push the block out. When the blocks are destroyed, they are removed from their rows and placed back into the list of blocks available to be spawned in.\nOne of the key changes I wanted to make after developing Spinny Spot was to make the levels the same each time you played. In Spinny Spot, each level had the same enemies and spawn rate, but the order was always random. This made for some frustrating moments that would trap players. My solution to this problem was to let the spawner run for a long time at a high speed, and I captured all the data in a text file. I then copies bits of this data to use for each level. It would go through the array of newly found spawning information to find the location and color of each block to spawn. This allowed each level to remain consistent without me having to write out each individual spawn.\n",
+  "articleBody": " Hexmesh Duo is the most recent game that I have created. It has currently been put on hold for other projects. My goal with this game was to expand my reach with Unity into a 3D game because all of my previous games are 2D. Most of the skills I had learned from previous projects were transferrable; however, there were a few key differences.\nOne of the biggest changes was creating 3D objects. A good portion of my UI is built into the game board. I had to create these in Blender and import them into Unity. Obviously, the positioning system was a big change as I had to place the blocks on 3 axes instead of 2. Colliders were 3D as well which did not involve much work on my end, but it is still important.\nThe most challenging part of building this game was the block spawner. The game board has 9 rows, and this was my focus. I kept track of the first block in each row so I would know what color was sitting there. All other blocks were kept in a list specific to that row. When a certain row is selected, it checks the block color currently there to the one it wants to spawn. If it is the same, it stacks the blocks; otherwise, it will push the block out. When the blocks are destroyed, they are removed from their rows and placed back into the list of blocks available to be spawned in.\nOne of the key changes I wanted to make after developing Spinny Spot was to make the levels the same each time you played. In Spinny Spot, each level had the same enemies and spawn rate, but the order was always random. This made for some frustrating moments that would trap players. My solution to this problem was to let the spawner run for a long time at a high speed, and I captured all the data in a text file. I then copies bits of this data to use for each level. It would go through the array of newly found spawning information to find the location and color of each block to spawn. This allowed each level to remain consistent without me having to write out each individual spawn.\n",
   "wordCount" : "382",
   "inLanguage": "en",
   "datePublished": "2020-07-13T00:00:00Z",
@@ -84,18 +84,19 @@ One of the biggest changes was creating 3D objects."/>
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://brendanperry.github.io/projects/hexmesh/"
+    "@id": "https://brendanperry.me/projects/hexmesh/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "brendanperry.me",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://brendanperry.github.io/favicon.ico"
+      "url": "https://brendanperry.me/favicon.ico"
     }
   }
 }
 </script>
+    
 </head>
 
 <body class=" dark" id="top">
@@ -109,7 +110,7 @@ One of the biggest changes was creating 3D objects."/>
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://brendanperry.github.io/" accesskey="h" title="Brendan Perry (Alt + H)">Brendan Perry</a>
+            <a href="https://brendanperry.me/" accesskey="h" title="Brendan Perry (Alt + H)">Brendan Perry</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -134,6 +135,21 @@ One of the biggest changes was creating 3D objects."/>
             </span>
         </div>
         <ul id="menu">
+            <li>
+                <a href="https://brendanperry.me/posts/" title="posts">
+                    <span>posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brendanperry.me/projects/" title="projects">
+                    <span>projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brendanperry.me/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -164,15 +180,15 @@ One of the biggest changes was creating 3D objects."/>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://brendanperry.github.io/tags/unity/">Unity</a></li>
-      <li><a href="https://brendanperry.github.io/tags/ios/">iOS</a></li>
+      <li><a href="https://brendanperry.me/tags/unity/">Unity</a></li>
+      <li><a href="https://brendanperry.me/tags/ios/">iOS</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2022 <a href="https://brendanperry.github.io/">brendanperry.me</a></span>
+    <span>&copy; 2022 <a href="https://brendanperry.me/">brendanperry.me</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
