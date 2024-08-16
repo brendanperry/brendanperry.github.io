@@ -9,9 +9,7 @@ tags: ["Swift", "iOS"]
 
 [Website](https://www.sporadic.app)
 
-Sporadic is the current project that I am working on. It is a simple app that gives you random workouts throughout the week.
+Sporadic is my latest published iOS project. It is a simple app that gives you random workouts throughout the week.
+It is a native iOS app built with Swift UI. I took on this project to learn how to build non-game apps. I have learned a lot about Swift, Swift UI, and iOS in general. This includes things such as local notifications, swapping app icons, and light/dark mode switching."
 
-It is a native iOS app built with Swift UI. I took on this project to learn how to build non-game apps. I have learned a lot about Swift, Swift UI, and iOS in general. This includes things such as local notifications, swapping app icons, and light/dark mode switching.
-
-Sporadic should be released on the iOS App Store sometime this year.
 

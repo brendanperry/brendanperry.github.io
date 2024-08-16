@@ -2,63 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on brendanperry.me</title>
-    <link>https://brendanperry.me/tags/</link>
+    <link>https://brendanperry.github.io/tags/</link>
     <description>Recent content in Tags on brendanperry.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 30 Apr 2022 12:26:00 -0400</lastBuildDate><atom:link href="https://brendanperry.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.132.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Apr 2022 12:26:00 -0400</lastBuildDate>
+    <atom:link href="https://brendanperry.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>iOS</title>
-      <link>https://brendanperry.me/tags/ios/</link>
+      <title>IOS</title>
+      <link>https://brendanperry.github.io/tags/ios/</link>
       <pubDate>Sat, 30 Apr 2022 12:26:00 -0400</pubDate>
-      
-      <guid>https://brendanperry.me/tags/ios/</guid>
+      <guid>https://brendanperry.github.io/tags/ios/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Swift</title>
-      <link>https://brendanperry.me/tags/swift/</link>
+      <link>https://brendanperry.github.io/tags/swift/</link>
       <pubDate>Sat, 30 Apr 2022 12:26:00 -0400</pubDate>
-      
-      <guid>https://brendanperry.me/tags/swift/</guid>
+      <guid>https://brendanperry.github.io/tags/swift/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>School</title>
-      <link>https://brendanperry.me/tags/school/</link>
+      <link>https://brendanperry.github.io/tags/school/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://brendanperry.me/tags/school/</guid>
+      <guid>https://brendanperry.github.io/tags/school/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Web</title>
-      <link>https://brendanperry.me/tags/web/</link>
+      <link>https://brendanperry.github.io/tags/web/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://brendanperry.me/tags/web/</guid>
+      <guid>https://brendanperry.github.io/tags/web/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Linux</title>
-      <link>https://brendanperry.me/tags/linux/</link>
+      <link>https://brendanperry.github.io/tags/linux/</link>
       <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://brendanperry.me/tags/linux/</guid>
+      <guid>https://brendanperry.github.io/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Unity</title>
-      <link>https://brendanperry.me/tags/unity/</link>
+      <link>https://brendanperry.github.io/tags/unity/</link>
       <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://brendanperry.me/tags/unity/</guid>
+      <guid>https://brendanperry.github.io/tags/unity/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

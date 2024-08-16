@@ -2,9 +2,6 @@ baseURL = "https://brendanperry.github.io/"
 title = "brendanperry.me"
 theme = "PaperMod"
 
-[taxonomies]
-   tag = "tags"
-
 [params]
 env = "production"
 title = "Brendan Perry"
@@ -18,42 +15,34 @@ ShowCodeCopyButtons = true
 disableScrollToTop = false
 comments = false
 
-  [params.label]
-  text = "Brendan Perry"
-  iconHeight = 35
+[params.label]
+text = "Brendan Perry"
+iconHeight = 35
 
-  [params.profileMode]
-  enabled = true
-  title = "Brendan Perry"
-  subtitle = "Software Engineer"
-  imageUrl = "/profilePicture.jpg"
-  imageWidth = 200
-  imageHeight = 200
-  imageTitle = "Headshot"
+[params.profileMode]
+enabled = true
+title = "Brendan Perry"
+subtitle = "Software Engineer"
+imageUrl = "/profilePicture.jpg"
+imageWidth = 200
+imageHeight = 200
+imageTitle = "Headshot"
 
-    [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "posts"
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
 
-    [[params.profileMode.buttons]]
-    name = "Projects"
-    url = "projects"
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/brendanperry"
 
-    [[params.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/brendanperry"
 
-  [[params.socialIcons]]
-  name = "linkedin"
-  url = "https://linkedin.com/in/brendanperry"
-
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://codeberg.org/brendanperry"
-
-  [[params.socialIcons]]
-  name = "email"
-  url = "https://keyserver.ubuntu.com/pks/lookup?search=brendan%40brendanperry.me&fingerprint=on&op=index"
+[[params.socialIcons]]
+name = "email"
+url = "mailto://brendan@brendanperry.me"
 
 [markup]
   [markup.goldmark]
