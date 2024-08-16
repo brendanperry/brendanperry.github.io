@@ -7,6 +7,6 @@ I will be using this website to host information about me and my projects.
 
 - Make sure to clone theme: git submodule update --init --recursive
 - Start local server: hugo server -D
-- Enter command "hugo" to generate static site in /public folder
-- Copy contents to branch gh-pages
-- Maybe fix profile photo link
+- Changes should auto update on localhost
+- Commit change to master
+- GitHub Actions will deploy to the site
