@@ -34,7 +34,7 @@ url = "posts"
 
 [[params.profileMode.buttons]]
 name = "Have an app idea?"
-url = "mailto://brendan@perrysoftware.com"
+url = "https://perrysoftware.com"
 
 [[params.socialIcons]]
 name = "linkedin"
